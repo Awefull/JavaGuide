@@ -1,46 +1,4 @@
-推荐你通过在线阅读网站进行阅读，体验更好，速度更快！
 
-* **[JavaGuide 在线阅读网站（新版，推荐👍）](https://javaguide.cn/)**
-* [JavaGuide 在线阅读版（老版）](https://snailclimb.gitee.io/javaguide/#/)
-
-<div align="center">
-    <p>
-        <a href="https://www.yuque.com/docs/share/8a30ffb5-83f3-40f9-baf9-38de68b906dc">
-            <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/xingqiu.png" style="margin: 0 auto; width: 850px;" />
-        </a>
-    </p>
-    <p>
-        <a href="https://github.com/Snailclimb/JavaGuide" target="_blank">
-            <img src="https://img-blog.csdnimg.cn/img_convert/1c00413c65d1995993bf2b0daf7b4f03.png#pic_center" width="" />
-        </a>
-    </p>
-    <p>
-        <a href="https://javaguide.cn/"><img src="https://img.shields.io/badge/阅读-read-brightgreen.svg" alt="阅读" /></a>
-        <img src="https://img.shields.io/github/stars/Snailclimb/JavaGuide" alt="stars" />
-        <img src="https://img.shields.io/github/forks/Snailclimb/JavaGuide" alt="forks" />
-        <img src="https://img.shields.io/github/issues/Snailclimb/JavaGuide" alt="issues" />
-    </p>
-    <p>
-        <a href="https://github.com/Snailclimb/JavaGuide">Github</a> |
-        <a href="https://gitee.com/SnailClimb/JavaGuide">Gitee</a>
-    </p>  
-</div>
-
-> 1. **面试专版** ：准备面试的小伙伴可以考虑面试专版：[《Java 面试进阶指北 》](https://www.yuque.com/docs/share/f37fc804-bfe6-4b0d-b373-9c462188fec7) (质量很高，专为面试打造，配合 JavaGuide 食用)。
-> 1. **知识星球** ：专属面试小册/一对一交流/简历修改/专属求职指南，欢迎加入 [JavaGuide 知识星球](https://www.yuque.com/docs/share/8a30ffb5-83f3-40f9-baf9-38de68b906dc)（点击链接即可查看星球的详细介绍，一定一定一定确定自己真的需要再加入，一定一定要看完详细介绍之后再加我）。
-> 2. **转载须知** ：以下所有文章如非文首说明为转载皆为我（Guide 哥）的原创，转载在文首注明出处，如发现恶意抄袭/搬运，会动用法律武器维护自己的权益。让我们一起维护一个良好的技术创作环境！
-
-<div align="center">   
-    <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
-</div>
-
-
-## 项目相关
-
-* [项目介绍](./docs/javaguide/intro.md)
-* [贡献指南](./docs/javaguide/contribution-guideline.md)
-* [常见问题](./docs/javaguide/faq.md)
-* [项目代办](./docs/javaguide/todo.md)
 
 ## Java
 
@@ -223,11 +181,7 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8 ](https://docs.oracle
 - [Redis 内存碎片详解](./docs/database/redis/redis-memory-fragmentation.md)
 - [Redis 集群详解](./docs/database/redis/redis-cluster.md)
 
-## 搜索引擎
 
-用于提高搜索效率，功能和浏览器搜索引擎类似。比较常见的搜索引擎是 Elasticsearch（推荐） 和 Solr。
-
-![JavaGuide 官方公众号](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/gongzhonghaoxuanchuan.png)
 
 ## 开发工具
 
@@ -285,64 +239,7 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8 ](https://docs.oracle
 - [权限系统设计详解](./docs/system-design/security/design-of-authority-system.md)
 
 
-#### 数据脱敏
 
-数据脱敏说的就是我们根据特定的规则对敏感信息数据进行变形，比如我们把手机号、身份证号某些位数使用 * 来代替。
-
-#### 敏感词过滤
-
-[敏感词过滤方案总结](./docs/system-design/security/sentive-words-filter.md)
-
-### 定时任务
-
-[Java 定时任务详解](./docs/system-design/schedule-task.md)
-
-### Web 实时消息推送
-
-[Web 实时消息推送详解](./docs/system-design/web-real-time-message-push.md)
-
-## 分布式
-
-### CAP 理论和 BASE 理论
-
-[CAP 理论和 BASE 理论解读](./docs/distributed-system/theorem&algorithm&protocol/cap&base-theorem.md)
-
-### Paxos 算法和 Raft 算法
-
-- [Paxos 算法解读](./docs/distributed-system/theorem&algorithm&protocol/paxos-algorithm.md)
-- [Raft 算法解读](./docs/distributed-system/theorem&algorithm&protocol/raft-algorithm.md)
-
-### RPC
-
-* [RPC 基础常见知识点&面试题总结](./docs/distributed-system/rpc/rpc-intro.md)
-* [Dubbo 常见知识点&面试题总结](./docs/distributed-system/rpc/dubbo.md)
-
-### API 网关
-
-* [为什么要网关？你知道有哪些常见的网关系统？](./docs/distributed-system/api-gateway.md)
-* [百亿规模API网关服务Shepherd的设计与实现](https://tech.meituan.com/2021/05/20/shepherd-api-gateway.html)
-
-### 分布式 id
-
-[为什么要分布式 id ？分布式 id 生成方案有哪些？](./docs/distributed-system/distributed-id.md)
-
-### 分布式锁
-
-[分布式锁](./docs/distributed-system/distributed-lock.md)
-
-### 分布式事务
-
-[分布式事务](./docs/distributed-system/distributed-transaction.md)
-
-### 分布式协调
-
-> 前两篇文章可能有内容重合部分，推荐都看一遍。
-
-- [ZooKeeper 相关概念总结(入门)](./docs/distributed-system/distributed-process-coordination/zookeeper/zookeeper-intro.md)
-- [ZooKeeper 相关概念总结(进阶)](./docs/distributed-system/distributed-process-coordination/zookeeper/zookeeper-plus.md)
-- [ZooKeeper 实战](./docs/distributed-system/distributed-process-coordination/zookeeper/zookeeper-in-action.md)
-
-## 高性能
 
 ### 消息队列
 
@@ -352,54 +249,4 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8 ](https://docs.oracle
 - **RocketMQ** : [RocketMQ 基础知识总结](./docs/high-performance/message-queue/rocketmq-intro.md)、[RocketMQ 常见面试题总结](./docs/high-performance/message-queue/rocketmq-questions.md)
 - **Kafka** ：[Kafka 常见问题总结](./docs/high-performance/message-queue/kafka-questions-01.md)
 
-### 读写分离&分库分表
-
- [读写分离&分库分表](./docs/high-performance/read-and-write-separation-and-library-subtable.md)
-
-### 负载均衡
-
- [负载均衡](./docs/high-performance/load-balancing.md)
-
-### CDN
-
-[CDN（内容分发网络）](./docs/high-performance/cdn.md)
-
-## 高可用
-
-[高可用系统设计指南](./docs/high-availability/high-availability-system-design.md) 。
-
-### 限流
-
-[何为限流？限流算法有哪些？](./docs/high-availability/limit-request.md)
-
-### 降级&熔断
-
-[降级&熔断](./docs/high-availability/fallback&circuit-breaker.md)
-
-### 超时&重试
-
-[超时&重试](./docs/high-availability/timeout-and-retry.md)
-
-### 集群
-
-相同的服务部署多份，避免单点故障。
-
-### 灾备设计和异地多活
-
-**灾备**  = 容灾+备份。
-
-* **备份** ： 将系统所产生的的所有重要数据多备份几份。
-* **容灾** ： 在异地建立两个完全相同的系统。当某个地方的系统突然挂掉，整个应用系统可以切换到另一个，这样系统就可以正常提供服务了。
-
-**异地多活** 描述的是将服务部署在异地并且服务同时对外提供服务。和传统的灾备设计的最主要区别在于“多活”，即所有站点都是同时在对外提供服务的。异地多活是为了应对突发状况比如火灾、地震等自然或者人为灾害。
-
-## Star 趋势
-
-![](https://api.star-history.com/svg?repos=Snailclimb/JavaGuide&type=Date)
-
-## 公众号
-
-如果大家想要实时关注我更新的文章以及分享的干货的话，可以关注我的公众号。
-
-![JavaGuide 官方公众号](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/gongzhonghaoxuanchuan.png)
 
